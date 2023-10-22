@@ -2,11 +2,11 @@
   font-family: "Onest", sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #24241f;
+  background-color: #9DBEDF;
 }
 
 .container {
-  background-color: #727365;
+  background-color: #354656;
   text-align: center;
   margin-top: 150px;
   border: 1px;
@@ -19,14 +19,16 @@
 }
 
 p {
-  background-color: #727365;
-  color: #00caf7;
+  background-color: #354656;
+  color: #9E9686;
+  font-weight: 900;
 }
 
 h1 {
-  background-color: #727365;
+  background-color: #354656;
   margin-bottom: 10px;
-  color: #00caf7;
+  color: #9E9686;
+  font-weight: 900;
 }
 
 button {
@@ -55,13 +57,15 @@ button:hover {
 }
 
 .sua-pontuação {
-    background-color: #727365;
+    background-color: #354656;
     color:#0004ff;
+    font-weight: 900;
 }
 
 .robo-pontuação {
-    background-color: #727365;
+    background-color: #354656;
     color:#7f0000;
+    font-weight: 900;
  }
 
 .result {
