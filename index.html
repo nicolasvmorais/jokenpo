@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@300;500;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Jokenpô</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Jokenpô</h1>
+      <button value="1" class="button"  onclick="playHuman(`rock`)" id="rock">
+        &#128074;
+      </button>
+      <button value="2" class="button"  onclick="playHuman(`paper`)" id="paper">
+        &#128400;
+      </button>
+      <button value="3" class="button"  onclick="playHuman(`scissor`)" id="scissor">
+        &#9996;
+      </button>
+      <p class="result"></p>
+      <p class="your-pontuacion">
+        Sua pontuação:<span class="sua-pontuação">0</span>
+      </p>
+      <p class="robot-pontuacion">
+        Pontuação do Robô:<span class="robo-pontuação">0</span>
+      </p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
